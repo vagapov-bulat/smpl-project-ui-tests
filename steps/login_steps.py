@@ -1,5 +1,5 @@
 import allure
-from tests.pages.login_page import LoginPage
+from pages.login_page import LoginPage
 from playwright.sync_api import Page, expect
 
 class LoginSteps:
