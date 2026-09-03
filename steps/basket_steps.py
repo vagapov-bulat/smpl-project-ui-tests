@@ -1,5 +1,5 @@
 import allure
-from tests.pages.basket_page import BasketPage
+from pages.basket_page import BasketPage
 from playwright.sync_api import Page, expect
 
 class BasketSteps:
