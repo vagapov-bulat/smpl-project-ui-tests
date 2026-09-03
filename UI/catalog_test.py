@@ -1,8 +1,8 @@
 from playwright.sync_api import expect
-from tests.pages.login_page import LoginPage
-from tests.pages.catalog_page import CatalogPage
-from tests.steps.login_steps import LoginSteps
-from tests.steps.catalog_steps import CatalogSteps
+from pages.login_page import LoginPage
+from pages.catalog_page import CatalogPage
+from steps.login_steps import LoginSteps
+from steps.catalog_steps import CatalogSteps
 
 class TestCatalog:
     def test_catalog_count_product(self, auth_page):
