@@ -1,6 +1,6 @@
 import allure
-from tests.pages.catalog_page import CatalogPage
-from tests.pages.login_page import LoginPage
+from pages.catalog_page import CatalogPage
+from pages.login_page import LoginPage
 from playwright.sync_api import Page, expect
 
 class CatalogSteps:
