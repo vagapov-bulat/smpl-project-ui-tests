@@ -1,7 +1,7 @@
 import allure
-from tests.pages.checkout_page_two import CheckoutPageTwo
-from tests.pages.checkout_page_one import CheckoutPageOne
-from tests.pages.login_page import LoginPage
+from pages.checkout_page_two import CheckoutPageTwo
+from pages.checkout_page_one import CheckoutPageOne
+from pages.login_page import LoginPage
 from playwright.sync_api import Page, expect
 
 class CheckoutSteps:
