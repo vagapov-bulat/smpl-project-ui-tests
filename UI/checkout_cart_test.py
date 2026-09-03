@@ -1,11 +1,11 @@
 from playwright.sync_api import expect
-from tests.pages.catalog_page import CatalogPage
-from tests.pages.basket_page import BasketPage
-from tests.pages.checkout_page_one import CheckoutPageOne
-from tests.pages.checkout_page_two import CheckoutPageTwo
-from tests.steps.catalog_steps import CatalogSteps
-from tests.steps.checkout_steps import CheckoutSteps
-from tests.steps.basket_steps import BasketSteps
+from pages.catalog_page import CatalogPage
+from pages.basket_page import BasketPage
+from pages.checkout_page_one import CheckoutPageOne
+from pages.checkout_page_two import CheckoutPageTwo
+from steps.catalog_steps import CatalogSteps
+from steps.checkout_steps import CheckoutSteps
+from steps.basket_steps import BasketSteps
 
 
 def test_cart_checkout(auth_page):
